@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="119" height="44" viewBox="0 0 119 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00ffb9;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: Montserrat-Medium, Montserrat;
+        font-weight: 500;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 30px;
+      }
+
+      .cls-3 {
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="logo" transform="translate(-10 -7)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="22" cy="22" r="22" transform="translate(10 7)"/>
+    <text id="Taxis" class="cls-2" transform="translate(54 39)"><tspan x="0" y="0">Taxis</tspan></text>
+    <text id="cb" class="cls-3" transform="translate(14 39)"><tspan x="0" y="0">cb</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+@import './global.styles.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+  background-color: $background-color;
+}
+
+.job-view .container {
+  background-color: white;
+  height: 90%;
+  width: 90%;
+  margin: 5% auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 5px 5px 26px -11px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px 5px 26px -11px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 26px -11px rgba(0,0,0,0.5);
+  max-width: 700px;
+}
+
+.container .title {
+  color: $primary-color;
+  font-size: 1.2rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+.title h2 {
+  float: left;
+}
+.title h3 {
+  float: right
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

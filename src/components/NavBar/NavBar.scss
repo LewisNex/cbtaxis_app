@@ -1,0 +1,32 @@
+@import '../../global.styles.scss';
+
+.navbar {
+    background-color: $primary-color;
+    overflow: hidden;
+    padding: 0.2rem 0.4rem 0 0.4rem;
+    
+    ul {
+        float: right;
+        display: flex;
+        list-style: none;
+        padding: 1rem 0.2rem;
+        float: right;
+    }
+
+    div {
+        padding: 0.25rem;
+        float: left;
+    }
+
+    li {
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        padding: 0 1rem 0 0;
+        font-size: 1.2rem;
+    }
+
+    a:active {
+        color: $secondary-color;
+    }
+}
