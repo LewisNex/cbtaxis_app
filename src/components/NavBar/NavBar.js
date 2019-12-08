@@ -10,8 +10,8 @@ export default function NavBar() {
             <ul>
                 <li><Link to='/'>Create</Link></li>
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/'>List</Link></li>
-                <li><Link to='/'>Diary</Link></li>
+                <li><Link to='/list'>List</Link></li>
+                <li><Link to='/diary'>Diary</Link></li>
                 <li><Link to='/'>Users</Link></li>
             </ul>
         </div>

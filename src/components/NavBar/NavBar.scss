@@ -29,4 +29,14 @@
     a:active {
         color: $secondary-color;
     }
+
+    @include mobile {
+        .logo {
+            display: none;
+        }
+        ul {
+            float: none;
+        }
+    }
+
 }

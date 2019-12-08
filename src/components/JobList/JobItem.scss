@@ -1,0 +1,72 @@
+.job-item {
+    background-color: #E4E4E4;
+
+
+    .header {
+        border: #707070 1px solid;
+        border-top: none;
+        margin-bottom: -5.5px;
+        display: inline-block;
+        padding: 5px 10px;
+        width: 100%;
+        line-height: 40px;
+    }
+    .avatar {
+        width: 40px;
+        border-radius: 50%;
+        margin: 0 20px 0 0;
+        float: left;
+    }
+    .body {
+        display: flex;
+    }
+    .tabs {
+        list-style: none;
+        width: 8rem;
+    }
+    .tab {
+        border: 1px #707070 solid;
+        border-top: none;
+        height: 2rem;
+        line-height: 2rem;
+        padding: 0 8px;
+    }
+    .content {
+        border: 1px #707070 solid;
+        border-left: none;
+        border-top: none;
+        height: 6rem;
+        width: 100%;
+        display: flex;
+    }
+    .tab.active {
+        background-color: #BBFFDD
+    }
+    .addr {
+        width: 50%
+    }
+    .addr address {
+        padding: 0.1rem 0.5rem;
+        font-style: normal;
+    }
+    .addr-details p {
+        margin-right: 0.25rem;
+        float: left;
+        display: flex;
+    }
+    .time {
+        float: right;
+    }
+    
+    .postcode {
+        text-transform: uppercase;
+    }
+
+}
+.job-item:nth-child(1) .header {
+    border-top: #707070 1px solid;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.job-item:nth-child(2n) * {
+    background-color: #F1F1F1;
+}

@@ -13,11 +13,11 @@ body {
   background-color: $background-color;
 }
 
-.job-view .container {
+.container {
   background-color: white;
   height: 90%;
   width: 90%;
-  margin: 5% auto;
+  margin: 3rem auto;
   left: 0;
   right: 0;
   top: 0;
@@ -46,4 +46,24 @@ body {
 a {
   text-decoration: none;
   color: white;
+}
+
+.from {
+  color: $primary-color;
+  text-transform: capitalize;
+}
+.too {
+  color: $secondary-color;
+  text-transform: capitalize;
+}
+
+.hidden {
+  display: none;
+}
+
+@include mobile {
+  .container {
+    margin-top: 2rem;
+    width: 95%
+  }
 }
