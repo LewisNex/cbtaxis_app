@@ -1,18 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 import Pusher from 'pusher-js';
 import axios from 'axios';
 
 import JobList from '../JobList/JobList';
 
-export default class Diary extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      jobs: []
-    }
-  }
-
+class Diary extends Component {
   componentDidMount() {
     const pusher = new Pusher('eb76090e47a74e0751c0', {
       cluster: 'eu',
@@ -45,3 +39,9 @@ export default class Diary extends Component {
     );
   }
 }
+
+const mapStateToProps = state => {
+  return { jobs: state.jobs }
+};
+
+export default connect(mapStateToProps)(Diary)

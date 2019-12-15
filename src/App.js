@@ -4,6 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import { connect } from 'react-redux';
 
 import Pusher from 'pusher-js';
 import axios from 'axios';
@@ -24,7 +25,7 @@ export default class App extends Component {
     });
     const jobChannel = pusher.subscribe('job-channel');
     jobChannel.bind('new-job', (job) => {
-        this.props.addJob(job)
+        this.state.addJob(job)
         console.log(job)
     });
     // Get all initial jobs
@@ -72,3 +73,4 @@ export default class App extends Component {
     );
   }
 }
+
